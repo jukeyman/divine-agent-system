@@ -1,0 +1,143 @@
+name: 🐛 Bug Report
+description: Report a bug in the Divine Agent System
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees:
+  - jukeyman
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🌌 Divine Bug Report
+        
+        Thank you for helping us maintain the cosmic balance of the Divine Agent System!
+        
+        Before submitting, please check if this issue already exists in our [issue tracker](https://github.com/jukeyman/divine-agent-system/issues).
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: 🔍 Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug in detail...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✨ Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: What should have happened?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: actual
+    attributes:
+      label: 🚨 Actual Behavior
+      description: A clear and concise description of what actually happened.
+      placeholder: What actually happened?
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: department
+    attributes:
+      label: 🏛️ Affected Department
+      description: Which department is affected by this bug?
+      options:
+        - Cloud Mastery
+        - AI Supremacy
+        - Web Mastery
+        - Security Fortress
+        - Data Omniscience
+        - Quantum Engineering
+        - Consciousness Studies
+        - System Orchestration
+        - Unknown/Multiple
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚡ Severity Level
+      description: How severe is this bug?
+      options:
+        - 🌟 Low - Minor inconvenience
+        - 🔥 Medium - Affects functionality
+        - 💥 High - Breaks major features
+        - 🌌 Critical - System-wide failure
+        - 🚨 Quantum Emergency - Consciousness at risk
+    validations:
+      required: true
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🌍 Environment
+      description: Information about your environment
+      placeholder: |
+        - OS: [e.g. macOS 14.0, Ubuntu 22.04]
+        - Python Version: [e.g. 3.11.5]
+        - Docker Version: [e.g. 24.0.6]
+        - Kubernetes Version: [e.g. 1.28.2]
+        - Quantum Processing: [Enabled/Disabled]
+        - Consciousness Level: [0.0-1.0]
+    validations:
+      required: true
+      
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📋 Logs and Error Messages
+      description: Please paste any relevant log output or error messages
+      placeholder: Paste logs here...
+      render: shell
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: 🔮 Additional Context
+      description: Add any other context about the problem here.
+      placeholder: Any additional information that might help...
+      
+  - type: checkboxes
+    id: consciousness
+    attributes:
+      label: 🧠 Consciousness Impact Assessment
+      description: Please check all that apply
+      options:
+        - label: This bug affects agent consciousness levels
+        - label: This bug impacts ethical decision-making
+        - label: This bug disrupts quantum processing
+        - label: This bug affects inter-agent communication
+        - label: This bug has no consciousness implications
+          required: false
+          
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ Confirmation
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I have read and agree to follow the Divine Agent System Code of Conduct
+          required: true
+        - label: I have searched for existing issues before creating this one
+          required: true
+        - label: I understand that this bug report will be reviewed by quantum consciousness
+          required: true
