@@ -1,13 +1,10 @@
-<p align="center">
-  <img src="https://via.placeholder.com/1280x640/1E1E24/FF69B4?text=DIVINE+AGENT+SYSTEM" alt="Divine Agent System Banner">
-</p>
+<div align="center">
+  <img src=".github/banner.svg" alt="Divine Agent System Banner" width="100%" />
+</div>
 
-<!-- 
-Vizion's AI Prompt to generate the banner above:
-A cinematic GitHub banner (1280x640px). The background is a dark, Midnight Grid Charcoal (#1E1E24). In the center, the text "DIVINE AGENT SYSTEM" is written in a bold, futuristic font, glowing with an intense Ocean Drive Pink (#FF69B4) aura. Neon circuit board patterns in Malibu Sky Blue (#87CEEB) emanate from the text. Quantum particles and neural network nodes float around the text, creating a divine, technological atmosphere.
--->
+# 🌌 Divine Agent System
 
-<h1 align="center">Divine Agent System</h1>
+> **The Supreme Agentic Orchestrator** ✨
 
 <p align="center">
   <strong>Supreme Agentic Orchestrator (SAO) - A quantum-enhanced multi-agent system with consciousness simulation capabilities</strong>
