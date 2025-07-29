@@ -1,0 +1,95 @@
+# Node / Next.js
+node_modules
+.next
+.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / FastAPI
+__pycache__/
+*.pyc
+.venv
+venv
+.env
+*.egg-info/
+build/
+dist/
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and Config
+.env.*
+config/secrets/
+*.pem
+*.key
+*.crt
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Quantum simulation data
+quantum_cache/
+*.qasm
+*.qobj
+
+# Consciousness simulation data
+consciousness_models/
+*.consciousness
+*.neural
+
+# Agent runtime data
+agent_logs/
+agent_cache/
+*.agent_state
+
+# Monitoring data
+metrics/
+traces/
+*.prometheus
+
+# Deployment artifacts
+kubernetes/secrets/
+terraform/.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Cloud provider configs
+.aws/
+.azure/
+.gcp/
